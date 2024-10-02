@@ -1,0 +1,20 @@
+/*book-nest/src/components/SearchForm/SearchForm.css*/
+
+.search-form{
+    width: 100%;
+    max-width: 680px;
+}
+.search-form-elem{
+    padding: 1.2rem 2.0rem;
+    border-radius: 3.8rem;
+    border: 1px black solid;
+}
+
+.search-form-elem .form-control{
+    font-size: 1.8rem;
+    padding: 0.6rem;
+}
+.search-form-elem .form-control::placeholder{
+    opacity: 0.8;
+}
+

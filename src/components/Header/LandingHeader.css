@@ -1,0 +1,51 @@
+
+.holder {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100vw;
+    margin: 0; 
+    padding: 0; 
+}
+
+.header-content {
+    min-height: 75vh;
+    background: linear-gradient(rgba(139, 0, 104, 0.4), rgba(22, 1, 101, 0.5)), 
+    url('../../images/landing_cover.jpg') center/cover no-repeat; 
+    flex-direction: column;
+    color: white; 
+}
+
+.header-title {
+    font-size: 4.2rem;
+    color: white; 
+}
+
+.header-text {
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+    color: white;
+}
+.login-btn {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    color: #5f005c;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-btn:hover {
+    background-color: #5f005c87;
+    color: #ffffff;
+}

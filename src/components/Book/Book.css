@@ -1,0 +1,57 @@
+/* src/components/Book/Book.css */
+.book-item {
+  position: relative;
+  padding: 2rem;
+  border-radius: 4px;
+  background-color: var(--white-color);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 15px 0px;
+  transition: var(--transition);
+  width: 200px; 
+  text-align: center;
+}
+
+.book-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.book-item-img img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.book-item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-item-info-item {
+  margin-bottom: 0.5rem;
+}
+
+.book-item-info-item.title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.book-item-info-item.publish-year {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.book-item .save-btn,
+.book-item .delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #777;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.book-item .save-btn:hover,
+.book-item .delete-btn:hover {
+  color: #000;
+}

@@ -1,0 +1,30 @@
+/* Path: src/components/SingleBook/SingleBook.css */
+
+.single-book {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .book-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .book-author {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .book-img img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .book-description {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.5;
+  }
+  
